@@ -1,0 +1,53 @@
+* {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-size: 130%;
+    background: linear-gradient(to bottom right, red, blue);
+    margin: 0;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulaires {
+    margin: 3%;
+    padding: 3%;
+    background-color: rgba(250, 235, 215, 0.422);
+    border-radius: 25px;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    align-content: center;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+#Genre {
+    display: flex;
+}
+
+.formu {
+    display: flex;
+}
+
+#btn {
+    display: flex;
+    flex-direction: column-reverse;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    width: 40%;
+    height: inherit;
+    max-height: 40%;
+    font-size: 150%;
+}

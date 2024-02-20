@@ -11,83 +11,104 @@
 <body>
     <section>
         <form>
-            <div>
-                <label for="Prenom:">Prénom:</label>
-                <input type="text" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="Prenom:">Prénom:</label>
+                    <input type="text" required>
+                </div>
+                <div class="formu">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
             </div>
-            <div>
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" required>
+                </div>
+                <div id="Genre">
+                    <label for="Genre">Sexe:</label>
+                    <label for="Homme">Homme</label>
+                    <input type="radio" name="choix" value="Homme" required>
+                    <label for="Femme">Femme</label>
+                    <input type="radio" name="choix" value="Femme" required>
+                </div>
             </div>
-            <div>
-                <label for="age">Age</label>
-                <input type="number" name="age" id="age" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="mail">Mail:</label>
+                    <input type="text" id="mail" required>
+                </div>
+                <div class="formu">
+                    <label for="adresse postale:">Adresse Postale:</label>
+                    <input type="text" id="postalAdresse" required>
+                </div>
             </div>
-            <div>
-                <label for="Genre">Sexe:</label>
-                <input type="radio" name="choix" value="Homme" required>Homme
-                <input type="radio" name="choix" value="Femme" required>Femme
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="Code postale:">Code Postale:</label>
+                    <input type="number" id="CodePostal" required>
+                </div>
+                <div class="formu">
+                    <label for="Ville:">Ville:</label>
+                    <input type="text" id="Ville" required>
+                </div>
             </div>
-            <div>
-                <label for="mail">Mail:</label>
-                <input type="text" id="mail" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="metier">Métier exercé :</label>
+                    <select id="metier" name="metier" required>
+                        <option value="">Votre métier</option>
+                        <option value="B">Métier A</option>
+                        <option value="c">Métier B</option>
+                        <option value="d">Métier C</option>
+                    </select>
+                </div>
+                <div class="formu">
+                    <label for="pays">Nationalité :</label>
+                    <select id="pays" name="pays" required>
+                        <option value=""> Votre nationalité</option>
+                        <option value="B">nationalité A</option>
+                        <option value="c">nationalité B</option>
+                        <option value="d">nationalité C</option>
+                    </select>
+                </div>
             </div>
-            <div>
-                <label for="adresse postale:">Adresse Postale:</label>
-                <input type="text" id="postalAdresse" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="date de naissance"> Date de naissance :</label>
+                    <input type="date" name="jj//mm//aaaa" id="date" required>
+                </div>
+                <div class="formu">
+                    <label for="Pays de naissance"> Pays de naissance :</label>
+                    <input type="text" id="paysNaissance" required>
+                </div>
             </div>
-            <div>
-                <label for="Code postale:">Code Postale:</label>
-                <input type="number" id="CodePostal" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="Numéro de sécu">Numéro de sécurité sociale:</label>
+                    <input type="number" id="numéroSécu" required>
+                </div>
+                <div class="formu">
+                    <label for="Numéro de passport">Numéro de passport:</label>
+                    <input type="text" id="numéroPassport" required>
+                </div>
             </div>
-            <div>
-                <label for="Ville:">Ville:</label>
-                <input type="text" id="Ville" required>
+            <div class="formulaires">
+                <div class="formu">
+                    <label for="date de délivrance du passport">Date de délivrance du passport :</label>
+                    <input type="date" id="dateDélivrancePassport" required>
+                </div>
+                <div class="formu">
+                    <label for="date de validité du passport">Date de validité du passport :</label>
+                    <input type="date" id="dateValiditéPassport" required>
+                </div>
             </div>
-            <div>
-                <label for="metier">Métier exercé :</label>
-                <select id="metier" name="metier" required>
-                    <option value="">Votre métier</option>
-                    <option value="B">Métier A</option>
-                    <option value="c">Métier B</option>
-                    <option value="d">Métier C</option>
-                </select>
-            </div>
-            <div>
-                <label for="pays">Nationalité :</label>
-                <select id="pays" name="pays" required>
-                    <option value=""> Votre nationalité</option>
-                    <option value="B">nationalité A</option>
-                    <option value="c">nationalité B</option>
-                    <option value="d">nationalité C</option>
-                </select>
-            </div>
-            <div>
-                <label for="date de naissance"> Date de naissance :</label>
-                <input type="date" name="jj//mm//aaaa" id="date" required>
-            </div>
-            <div>
-                <label for="Pays de naissance"> Pays de naissance :</label>
-                <input type="text" id="paysNaissance" required>
-            </div>
-            <div>
-                <label for="Numéro de sécu">Numéro de sécurité sociale:</label>
-                <input type="number" id="numéroSécu" required>
-            </div>
-            <div>
-                <label for="Numéro de passport">Numéro de passport:</label>
-                <input type="text" id="numéroPassport" required>
-            </div>
-            <div>
-                <label for="date de délivrance du passport">Date de délivrance du passport :</label>
-                <input type="date" id="dateDélivrancePassport" required>
-            </div>
-            <div>
-                <label for="date de validité du passport">Date de validité du passport :</label>
-                <input type="date" id="dateValiditéPassport" required>
-            </div>
-            <div>
-                <button type="submit" id="button">envoyer</button>
+            <div class=" formulaires">
+                <div id="btn">
+                    <label for="submit"></label>
+                    <button type="submit" id="button">Valider</button>
+                </div>
             </div>
         </form>
     </section>
